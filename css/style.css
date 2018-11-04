@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+/*
+@font-face{
+    font-family:agora_light;
+    src: url(../fonts/PFAgoraSansPro-Light_35306.ttf)
+}
+*/
+
+/*common css*/
+
+.full_wrapper {
+    width: 100%;
+}
+.wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+.portfolio{
+    margin-top: 50px;
+}
+.portfolio ul li{
+    width: 25%;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.portfolio ul li img{
+    width: 100%;
+}
+.portfolio ul li .gallery{
+    position: relative;
+}
+.portfolio ul li a .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 58, 58,0.6);
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.portfolio ul li a .overlay i{
+    margin-top: 85px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+.portfolio ul li a .overlay i:hover{
+    background: #fff;
+    color: #ef2424;
+}
+.portfolio ul li:hover .overlay{
+    opacity: 1;
+}
+.portfolio ul li{}
+
+.portfolio-two{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.portfolio-two ul li{
+    float: left;
+}
+.portfolio-two ul li{
+    width: 25%;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.portfolio-two ul li img{
+    width: 100%;
+}
+.portfolio-two ul li{}
+.portfolio-two ul li{}
+.portfolio-two ul li{}
+.portfolio-two ul li{}
+.portfolio-two ul li{}
+
+
+
+
+
+.content{
+    padding-top: 100px;
+}
+
+
+
+
+
+

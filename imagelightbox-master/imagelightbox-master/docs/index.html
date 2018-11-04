@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Imagelightbox</title>
+
+    
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="stylesheets/imagelightbox.css" media="screen">
+
+    <title>Imagelightbox by rejas</title>
+</head>
+
+<body>
+<div id="container">
+    <div class="inner">
+        <header>
+            <h1>Imagelightbox</h1>
+            <h2>Image Lightbox, Responsive and Touch‑friendly</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+            <a href="https://github.com/rejas/imagelightbox/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+            <a href="https://github.com/rejas/imagelightbox/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+            <a href="https://github.com/rejas/imagelightbox" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <div id="main_content">
+            <section class="options">
+                
+                
+                <h2>With navigation</h2>
+                <ul class="demo_navigation">
+                    <li><a href="images/demo1.jpg" data-imagelightbox="e"><img src="images/thumb1.jpg"></a></li>
+                    <li><a href="images/demo2.jpg" data-imagelightbox="e"><img src="images/thumb2.jpg"></a></li>
+                    <li><a href="images/demo3.jpg" data-imagelightbox="e"><img src="images/thumb3.jpg"></a></li>
+                </ul>
+                <pre><code>
+                    $('a[data-imagelightbox="e"]')
+                    .imageLightbox({navigation: true});
+                </code></pre>
+
+               
+                <h2>With arrows</h2>
+                <ul>
+                    <li><a href="images/demo1.jpg" data-imagelightbox="f"><img src="images/thumb1.jpg"></a></li>
+                    <li><a href="images/demo2.jpg" data-imagelightbox="f"><img src="images/thumb2.jpg"></a></li>
+                    <li><a href="images/demo3.jpg" data-imagelightbox="f"><img src="images/thumb3.jpg"></a></li>
+                </ul>
+                <pre><code>$('a[data-imagelightbox="f"]')
+                    .imageLightbox({arrows: true});
+                </code></pre>
+
+               
+               
+
+                <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+                <script src="./javascripts/imagelightbox.js"></script>
+                <script src="./javascripts/main.js"></script>
+            </section>
+
+            
+        </div>
+
+        
+    </div>
+</div>
+</body>
+</html>
